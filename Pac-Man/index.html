@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>PAC-MAN</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/script.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <audio id="theme" src="elements/theme.mp3"></audio>
+        <audio id="point" src="elements/point.mp3"></audio>
+        <audio id="celebrate" src="elements/celebrate.mp3"></audio>
+        <audio id="loser" src="elements/loser.mp3"></audio>
+        <audio id="lifeDown" src="elements/life-lost.mp3"></audio>
+
+        <div id="open"></div>
+            <h1 class="game-over">GAME OVER</h1>
+            <h3 class="game-over" id="score-tag">YOUR SCORE: <span id="UI-score"></span></h3>
+            <button id="start">START GAME</button>
+            <img id="restart" src="elements/replay.png">
+        </div>
+        <div class="play-grid-wrap">
+            <div class="play-grid"></div>
+        </div>
+        <div class="live">
+            <p>LIVES: </p>
+            <div class="lives"></div>
+        </div>
+    </body>
+</html>
